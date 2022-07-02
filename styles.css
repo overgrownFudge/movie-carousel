@@ -1,6 +1,11 @@
+body {
+    background-color: gray;
+}
 .carousel {
-    max-width: 600px;
+    max-width: 100%;
     position: relative;
+    margin-left: 250px;
+    margin-top: 50px
 }
 
 .carousel .carousel-item,
@@ -15,7 +20,7 @@
 
 .carousel .carousel-item img {
     width: 100%;
-    max-width: 600px;
+    max-width: 80%;
     height: auto;
 }
 
@@ -40,11 +45,11 @@
 }
 
 .carousel .carousel-actions button#carousel-button-prev {
-    margin-left: 20px;
+    margin-left: 1%;
 }
 
 .carousel .carousel-actions button#carousel-button-next {
-    margin-right: 20px;   
+    margin-right: 21%;   
 }
 
 @keyframes fadeVisibility {
